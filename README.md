@@ -21,3 +21,8 @@ The integration of the Solar Irradiance Prediction and Rooftop Area Calculation 
 **Usage and Conclusion**
 
 To utilize these models effectively, users need to provide relevant data, including satellite images and feature values for solar irradiance prediction. The models' parameters and thresholds can be adjusted based on specific needs and requirements. The integrated models provide valuable insights for solar energy planning, including predictions of solar irradiance and assessments of rooftop area and solar panel fitment. These insights can aid in optimizing solar panel installation and maximizing solar energy output. Further enhancements and customizations can be implemented to cater to unique use cases. The combination of satellite images, machine learning algorithms, and image processing techniques offers a powerful approach to solar energy planning and resource utilization.
+
+
+**Dataset**
+
+The dataset used in this repository is a combination of satellite images captured at a 20 zoom level in Google Earth Pro and data from Global Atlas dataset for ground-mounted solar panels. The satellite images provide information about the rooftop area and are used for the Rooftop Area Calculation model. The Global Atlas dataset provides historical solar irradiance data for each month, hourly-wise, which is utilized in the Solar Irradiance Prediction model. Additionally, temperature data for Noida, including cloud cover and wind speed, is collected from AccuWeather for the past year. This comprehensive dataset enables accurate predictions and optimization of solar panel installation.
